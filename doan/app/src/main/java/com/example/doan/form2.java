@@ -47,7 +47,7 @@ public class form2 extends AppCompatActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        Intent intent =new Intent(form2.this,form3.class);
+                        Intent intent =new Intent(form2.this,form_huongdan.class);
                         startActivity(intent);
                     }
                 },2000);

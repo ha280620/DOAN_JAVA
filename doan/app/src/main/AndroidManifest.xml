@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Doan">
-        <activity android:name=".form3"></activity>
+        <activity android:name=".form_huongdan7"></activity>
+        <activity android:name=".form_huongdan6" />
+        <activity android:name=".form_huongdan5" />
+        <activity android:name=".form_huongdan4" />
+        <activity android:name=".form_huongdan3" />
+        <activity android:name=".form_huongdan2" />
+        <activity android:name=".form_huongdan1" />
+        <activity android:name=".form_huongdan" />
+        <activity android:name=".form3" />
         <activity android:name=".form2" />
         <activity android:name=".MainActivity">
             <intent-filter>

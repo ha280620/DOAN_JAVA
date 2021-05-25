@@ -45,12 +45,5 @@ public class form3 extends AppCompatActivity {
             imageView.setImageBitmap(photo);
         }
 
-
-
-
-
-
-
-
     }
 }
