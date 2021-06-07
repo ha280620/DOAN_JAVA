@@ -8,46 +8,44 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="409dp"
-        android:layout_height="121dp"
+        android:layout_width="418dp"
+        android:layout_height="54dp"
         android:background="#0FEEE1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="413dp"
-        android:layout_height="141dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="414dp"
+        android:layout_height="62dp"
         android:background="#0FEEE1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="-4dp" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="307dp"
         android:layout_height="45dp"
-        android:layout_marginTop="28dp"
         android:autoSizeTextType="uniform"
         android:rotationX="4"
         android:text="what Is Sign Language?"
-        app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.208" />
+        tools:layout_editor_absoluteY="4dp" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="404dp"
         android:layout_height="146dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/what_is_sign_language" />
@@ -63,6 +61,6 @@
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.263" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
