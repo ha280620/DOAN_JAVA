@@ -228,4 +228,13 @@
         app:layout_constraintTop_toTopOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.899"
         app:srcCompat="@drawable/banner_quang_cao" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="64dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/icon_menu"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="-7dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
