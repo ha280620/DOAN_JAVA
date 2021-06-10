@@ -12,11 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#510FEEE1"
+        android:fontFamily="sans-serif"
         android:onClick="ketqua"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -25,10 +28,20 @@
         android:autoSizeTextType="uniform"
         android:background="#4A00BCD4"
         android:onClick="ketqua"
-        android:text="GUIDE ALPHABET SIGN LANGUAGE"
+        android:text="HƯỚNG DẪN HỌC NGÔN NGỮ KÝ HIỆU"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="189dp"
+        android:layout_height="168dp"
+        android:src="@drawable/ic_icons8"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView30" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,9 +14,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.727"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView6"
@@ -26,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-4dp" />
+        tools:layout_editor_absoluteY="-4dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView12"
@@ -34,10 +33,11 @@
         android:layout_height="45dp"
         android:autoSizeTextType="uniform"
         android:rotationX="4"
-        android:text="what Is Sign Language?"
+        android:text="Ngôn ngữ kí hiệu là gì?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="4dp" />
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -50,17 +50,34 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/what_is_sign_language" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="398dp"
-        android:layout_height="320dp"
-        android:autoSizeTextType="uniform"
-        android:text="Sign languages (also known as signed languages) are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon.[1] Sign languages are not universal and they are not mutually intelligible with each other although there are also striking similarities among sign languages."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.263" />
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/ic_action_previous_item"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="428dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        tools:layout_editor_absoluteX="6dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Ngôn ngữ ký hiệu hay ngôn ngữ dấu hiệu, thủ ngữ là ngôn ngữ dùng những biểu hiện của bàn tay thay cho âm thanh của tiếng nói. Ngôn ngữ ký hiệu do người khiếm thính tạo ra nhằm giúp họ có thể giao tiếp với nhau trong cộng đồng của mình và tiếp thu tri thức của xã hội.
+                                    Thực ra, NNKH chính là cuộc sống, vì nó bắt nguồn từ cuộc sống. Dù có hay không nhận thức ra, nhưng chúng ta vẫn đã và đang sử dụng NNKH rất nhiều trong cuộc sống hàng ngày. Khoa học đã chứng minh chúng ta truyền tải ngôn ngữ 70% thông qua các biện pháp không lời, tức là cử chỉ, điệu bộ, nét mặt… Một biện pháp đơn giản để nhận ra tầm quan trọng của ngôn ngữ không lời là bạn hãy thử nói chuyện mà nhắm mắt và hoàn toàn không cử động thân thể. Chỉ 30 phút thôi, bạn sẽ ngạc nhiên nhận thấy hiệu quả câu chuyện rất thấp. Chúng ta hoàn toàn mất phương hướng và khả năng phán đoán nếu không có các cử chỉ, điệu bộ, nét mắt của người đối thoại hướng dẫn, cũng như nếu không dùng tay chân thì hiệu quả truyền đạt củng giảm hẳn.
+                          Như thế, NNKH tràn ngập trong cuộc sống của chúng ta, chúng ta có thể không nhận thức, nhưng nó vẫn tồn tại, phát triển và giúp cho cuộc sống tiện lợi, thoải mái hơn. Nói cách khác, chính những người bình thường phát minh ra NNKH, người câm điếc làm một việc là mô phỏng và hệ thống hóa tất cả lại thành một thứ ngôn ngữ của riêng họ.
+                          Vậy tại sao không học NNKH để hoàn thiện hơn 70% khả năng truyền tải thông tin trong mỗi chúng ta?"></TextView>
+
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

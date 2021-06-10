@@ -37,4 +37,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="407dp"
+        android:layout_height="131dp"
+        android:text="Ứng dụng hỗ trợ học ngôn ngữ cử chỉ nhằm mục đích hướng cộng đồng quan tâm nhiều hơn đến những người không may bị khiếm khuyết."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="320dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="328dp"
+        android:layout_height="253dp"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="67dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phiên bản 1.0"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="630dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
