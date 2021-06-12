@@ -36,12 +36,12 @@
 
     <ImageView
         android:id="@+id/imageView38"
-        android:layout_width="189dp"
-        android:layout_height="168dp"
-        android:src="@drawable/ic_icons8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/logo_main"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView30" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

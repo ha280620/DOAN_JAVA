@@ -8,8 +8,11 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="196dp"
-        android:layout_height="90dp"
+        android:layout_width="180dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:background="#0FEEE1"
@@ -19,10 +22,10 @@
         android:text="ASL ALPHABET"
         android:textAlignment="center"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView4"
@@ -36,7 +39,7 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="415dp"
-        android:layout_height="51dp"
+        android:layout_height="21dp"
         android:background="#0FEEE1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,89 +47,101 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="196dp"
-        android:layout_height="90dp"
+        android:layout_width="182dp"
+        android:layout_height="64dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:background="#0FEEE1"
         android:gravity="center_horizontal"
         android:onClick="luyentap"
         android:text="ASL PRACTICE"
         android:textAlignment="center"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView41" />
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="196dp"
-        android:layout_height="90dp"
+        android:layout_width="180dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
-        android:layout_marginBottom="188dp"
         android:background="#0FEEE1"
         android:gravity="center_horizontal"
         android:onClick="thongtin"
         android:text="THÔNG TIN"
         android:textAlignment="center"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView45"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.6" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="196dp"
-        android:layout_height="90dp"
+        android:layout_width="180dp"
+        android:layout_height="64dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:background="#0FEEE1"
+
         android:gravity="center_horizontal"
         android:onClick="bangso"
         android:text="ASL NUMBERS"
         android:textAlignment="center"
-
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="196dp"
-        android:layout_height="90dp"
+        android:layout_width="180dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
-        android:layout_marginBottom="284dp"
         android:background="#0FEEE1"
+        android:gravity="center_horizontal"
         android:onClick="video"
         android:text="ASL VIDEO"
         android:textAlignment="center"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:gravity="center_horizontal" />
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="196dp"
-        android:layout_height="90dp"
+        android:layout_width="180dp"
+        android:layout_height="64dp"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:background="#0FEEE1"
         android:onClick="ngonngu"
-
         android:text="NGÔN NGỮ KÍ HIỆU"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView2"
@@ -146,8 +161,9 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="417dp"
-        android:layout_height="170dp"
+        android:layout_height="150dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:srcCompat="@drawable/ic_asl_menu" />
@@ -155,86 +171,105 @@
     <ImageView
         android:id="@+id/imageView39"
         android:layout_width="97dp"
-        android:layout_height="61dp"
+        android:layout_height="31dp"
         android:src="@drawable/peace_sign"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.426"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.965"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView40"
         android:layout_width="97dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="31dp"
         android:src="@drawable/sign_language2"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
         app:layout_constraintTop_toTopOf="@+id/textView7"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="269dp" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView41"
         android:layout_width="97dp"
-        android:layout_height="61dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="8dp"
         android:src="@drawable/sign_language7"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.576"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView42"
         android:layout_width="97dp"
-        android:layout_height="61dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="7dp"
         android:src="@drawable/sign_language5"
-        app:layout_constraintBottom_toBottomOf="@+id/textView3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576"
-        tools:layout_editor_absoluteX="269dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView43"
         android:layout_width="97dp"
-        android:layout_height="61dp"
+        android:layout_height="51dp"
         android:src="@drawable/sign_language10"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.719"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView44"
         android:layout_width="97dp"
-        android:layout_height="61dp"
+        android:layout_height="31dp"
         android:src="@drawable/infor"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.719"
-        tools:layout_editor_absoluteX="269dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.878"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView45"
-        android:layout_width="374dp"
-        android:layout_height="96dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.899"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/banner_quang_cao" />
 
     <ImageView
         android:id="@+id/imageView48"
         android:layout_width="64dp"
         android:layout_height="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:srcCompat="@drawable/icon_menu"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="-7dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
